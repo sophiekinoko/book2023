@@ -1,0 +1,438 @@
+
+		body {
+			color: #FFF;
+			background-color: #000;
+			font-family: 'Red Hat Display', sans-serif;
+			font-size: 20px;
+		}
+		
+
+		* {
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;<
+			webkit-box-sizing: border-box;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		h1, h2, h3, h4, h5 {
+		    line-height: 1em;
+		}
+
+		h1, h2, h3 {
+		    text-transform: uppercase;
+		}
+		
+		h1 h2, h3, h4, {
+			font-weight: 700;
+		}
+
+		h1 {
+		    font-size: 4em;
+		    margin-top: 2em;
+		    margin-bottom: 1em;
+		    color: #FFE600;
+		}
+
+		h2 {
+		    font-size: 3em;
+		}
+
+
+		h3 {
+		    font-size: 2em;
+		}
+
+
+		h4 {
+		    font-size: 1.5em;
+		}
+
+
+		h5 {
+			font-weight: 400;
+			font-size: 1.5em;
+		}
+
+		h6 {
+			font-weight: 400;
+			font-size: 1em;
+		}
+
+		.phonetic {
+			font-weight: 400;
+		}
+
+		a { 
+			color: #FFF; 
+		}
+
+		.button {
+			background-color: #DBFF00;
+			color: black; /* Text color */
+			cursor: pointer; /* Add a mouse pointer on hover */  
+			font-weight: 700;
+			font-size: 1em;
+			text-align: center;
+    		text-transform: uppercase;
+    		text-decoration: none;
+			border: none; /* Remove borders */
+			outline: none; /* Remove outline */
+			border-radius: 1.3em;
+			padding: 0.8em 1.5em;
+			transition: background-color 0.3s;
+    		margin-top: 1em;
+		}
+		
+		.button:hover {
+			background-color: #FFF;
+		}
+
+		section {
+			padding: 4em 10% 7em 10% 
+		}
+
+		.hero {
+			background-color: #000;
+			padding-top: 2em;
+			padding-right: 30%;
+			background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/DebitCard-Facebook.jpg");
+			background-repeat: no-repeat;
+			background-position: 70% 80%;
+		}
+
+		.expertise {
+			background-color: #D2D2D2;
+			/*background-image: url("../images/showcases-bg.png");*/
+			background-image: url("../images/TAASOPS-92-onepage-print.jpg");
+			background-repeat: no-repeat;
+			background-position: right center;
+			background-size: 70%;
+			color: #1234EA;
+		}
+
+		.partners {
+			background-color: #1234EA;
+			padding-top: 0.8em;
+			padding-bottom: 0.8em;
+			display: flex;
+			flex-wrap: wrap;
+  			justify-content: space-between;
+  			align-items: center;
+		}
+
+		.partners img {
+			max-width : 150px;
+		}
+
+		.logo {
+  			flex-basis: auto;
+		}
+
+		.look {
+			background-color: #000;
+			background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+			text-align: center;
+		}
+
+
+		.faq {
+			display: none;
+			background-color: #000;
+		}
+
+		.faq a {
+			text-decoration: none;
+		}
+
+
+		.faq h5 {
+			margin-bottom: 1em;
+		}
+
+
+		.accordion-toggle {
+		  display: block;
+		}
+
+		.accordion-content {
+		  display: none;
+		}
+
+		.accordion-content.active {
+		  display: block;
+		}
+
+
+
+
+		.experience {
+			background-color: #000;
+			background: linear-gradient(#FF4BA2 0%, #FFE600 100%);
+			color: #FFF;
+		}
+
+		.experience-flex {
+			display: flex;
+		}
+
+		.experience-flex-cv {
+			flex: 2;
+		}
+
+		.experience-flex-cv h5:first-child {
+			margin-top: 1em;
+		}
+
+		.experience-flex-cv h4:last-child {
+			margin-bottom: 0;
+		}
+
+		.experience-flex-animation {
+			flex: 1;
+		}
+
+
+		.experience h2 {
+			color: #FFE600;
+			padding-right: 5em;
+		}
+
+		.experience h5 {
+			margin-bottom: 0;
+		}
+
+		.experience h4 {
+			margin-top: 0;
+			margin-bottom: 2em;
+		}
+
+		.experience h3 {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+
+
+		text { 
+			font-size: 40px;
+			font-family: arial,sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 20px;
+			fill: #DBFF00;
+		}
+
+
+		.testimonials h2 {
+			color: #FFE600;
+			padding-right: 40%;
+		}
+
+		.testimonials {
+			background-color: #000;
+			color: #FFF;
+		}
+
+
+		.testimonials-flex {
+			display: flex;
+		}
+
+		.testimonials-flex-nom {
+			flex: 1;
+		}
+
+		.testimonials-flex-temoignage {
+			flex: 2;
+		}
+
+		.testimonials-flex-temoignage h5:last-child {
+			margin-bottom: 0;
+		}
+
+		.testimonials h4 {
+			margin-top: 2em;
+		}
+
+		.testimonials h6 {
+			margin-top: 2.6em;
+		}
+
+		.testimonials h5 {
+			color: #ABB2B9 ;
+			transition: color 0.3s;
+		}
+
+
+		.testimonials h5:hover {
+			color: #fff;
+			transition: color 0.3s;
+		}
+
+
+		.contact {
+			background-color: #75d972;
+			text-align: center;
+			background-image: url("../images/get-rich.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+
+
+		.social {
+			padding-top: 2em;
+		}
+
+		.social-icon {
+			margin-top: 10em;
+			padding-right: 1em;
+		}
+
+		.contact button {
+			margin: 1em;
+		}
+
+
+		.thanks {
+			padding: 0.6em 10% 0.6em 10% ;
+			background-color: #fff;
+			text-align: center;
+			font-size: 5em;
+			text-transform: uppercase;
+			font-weight: 900;
+			line-height: 0.8em;
+		}
+
+		.thanks-empty {
+			color: #fff;
+			-webkit-text-stroke: 2px #FF1F00;
+			text-stroke: 2px #FF1F00;
+		}
+		
+		.thanks-plain {
+			color: #FF1F00;
+			-webkit-text-stroke: 1px #FF1F00;
+			text-stroke: 1px #fff;
+		}
+
+		footer {
+			padding: 0.5em 10% 0.5em 10%;
+			background-color: #FF1F00;
+			color: #FFF;
+		}
+
+
+
+		
+
+
+
+
+
+
+
+	 /*////PHONE and TABLET/////////////////////*/
+
+	@media screen and (max-width: 1024px) {
+
+
+
+
+		body {
+			font-size: 14px;
+		}
+
+		section {
+			padding: 2em 5% 4em 5%;
+		}
+
+		background-position: 70% 90%;
+
+
+		.hero {
+			background-position: 48% 90%;
+			padding-top: 1em;
+		}
+
+		.hero h1 {
+			margin-top: 1em;
+		}
+
+		.hero h3 {
+			display: none;
+		}
+
+
+		.experience-flex-animation {
+			display: none;
+		}
+
+		.partners img {
+			max-width : 80px;
+		}
+
+		.partners div:first-child, .partners div:last-child {
+			display: none;
+		}
+
+
+		.expertise {
+			background-color: #D2D2D2;
+			background-image: url("../images/showcases-bg.png");
+			background-repeat: repeat;
+			background-position: right center;
+			background-size: 5%;
+			color: #1234EA;
+		}
+
+
+		.look {
+			background-color: #000;
+			text-align: left;
+		}
+
+
+		.testimonials-flex {
+			display: flex;
+  			flex-direction: column-reverse;
+		}
+
+		.testimonials h2 {
+			padding-right: 0;
+		}
+
+		.testimonials h5 {
+   			 margin-top: 0;
+   			 margin-bottom: 0.8em;
+   			 color: #FFF;
+		}
+
+
+		.testimonials h6 {
+   			 margin-top: 0;
+   			 color: #ABB2B9 ;
+		}
+
+
+		.contact {
+			text-align: left;
+			background-position: left;
+		}
+
+		.contact button {
+			margin: 1em 1em 1em 0em;
+		}
+
+		.thanks {
+			display: none;
+		}
+
+		footer {
+			padding: 0.5em 5% 0.5em 5%;
+		}
+
+
+
+	 }
