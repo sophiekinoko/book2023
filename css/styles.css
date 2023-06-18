@@ -53,6 +53,7 @@
 
 		h1, h2, h3, h4, h5 {
 		    line-height: 1em;
+		    text-wrap: balance;
 		}
 
 		h1, h2, h3 {
@@ -131,7 +132,7 @@
 		.hero {
 			background-color: #000;
 			padding-top: 2em;
-			padding-right: 30%;
+			/* padding-right: 30%; */
 			background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/DebitCard-Facebook.jpg");
 			background-repeat: no-repeat;
 			background-position: 70% 80%;
@@ -167,11 +168,10 @@
 
 		.expertise {
 			background-color: #D2D2D2;
-			/*background-image: url("../images/showcases-bg.png");*/
 			background-image: url("../images/brochure.jpg");
 			background-repeat: no-repeat;
 			background-position: right center;
-			background-size: 70%;
+			background-size: 65%;
 			color: #1234EA;
 		}
 
@@ -464,9 +464,6 @@
 
 	@media screen and (max-width: 1024px) {
 
-
-
-
 		body {
 			font-size: 14px;
 		}
@@ -478,8 +475,6 @@
 		section {
 			padding: 2em 5% 4em 5%;
 		}
-
-		background-position: 70% 90%;
 
 
 		.hero {
