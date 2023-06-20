@@ -28,32 +28,8 @@
 			clear: both;
 		}
 
-		#myBtnTop {
-		  display: none; /* Hidden by default */
-		  position: fixed; /* Fixed/sticky position */
-		  bottom: 20px; /* Place the button at the bottom of the page */
-		  right: 30px; /* Place the button 30px from the right */
-		  z-index: 99; /* Make sure it does not overlap */
-			height: 45px;
-			width: 45px;
-		  border: none; /* Remove borders */
-		  outline: none; /* Remove outline */
-		  background-color: #D92027; /* Set a background color */
-		  color: white; /* Text color */
-		  cursor: pointer; /* Add a mouse pointer on hover */
-		  padding: 8px; /* Some padding */
-		  border-radius: 5px; /* Rounded corners */
-		  font-size: 18px; /* Increase font size  */
-		  transition: background-color 0.8s;
-}
-
-		#myBtnTop:hover {
-		  background-color: #BA49F0; /* Chnage the color of the hover */
-}
-
 		h1, h2, h3, h4, h5 {
 		    line-height: 1em;
-		    text-wrap: balance;
 		}
 
 		h1, h2, h3 {
@@ -104,7 +80,7 @@
 			padding-bottom: 1em;
 		}
 
-		.button {
+		button {
 			background-color: #DBFF00;
 			color: black; /* Text color */
 			cursor: pointer; /* Add a mouse pointer on hover */  
@@ -118,10 +94,10 @@
 			border-radius: 1.3em;
 			padding: 0.8em 1.5em;
 			transition: background-color 0.3s;
-    		margin-top: 1em;
+    		margin: 1em 1em 1em 0em;
 		}
 		
-		.button:hover {
+		button:hover {
 			background-color: #FFF;
 		}
 
@@ -132,7 +108,7 @@
 		.hero {
 			background-color: #000;
 			padding-top: 2em;
-			/* padding-right: 30%; */
+			padding-right: 30%;
 			background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/DebitCard-Facebook.jpg");
 			background-repeat: no-repeat;
 			background-position: 70% 80%;
@@ -168,10 +144,11 @@
 
 		.expertise {
 			background-color: #D2D2D2;
+			/*background-image: url("../images/showcases-bg.png");*/
 			background-image: url("../images/brochure.jpg");
 			background-repeat: no-repeat;
 			background-position: right center;
-			background-size: 65%;
+			background-size: 70%;
 			color: #1234EA;
 		}
 
@@ -327,10 +304,6 @@
 			padding-right: 1em;
 		}
 
-		.contact button {
-			margin: 1em;
-		}
-
 
 		.thanks {
 			padding: 0.6em 10% 0.6em 10% ;
@@ -464,6 +437,9 @@
 
 	@media screen and (max-width: 1024px) {
 
+
+
+
 		body {
 			font-size: 14px;
 		}
@@ -475,6 +451,8 @@
 		section {
 			padding: 2em 5% 4em 5%;
 		}
+
+		background-position: 70% 90%;
 
 
 		.hero {
@@ -545,10 +523,6 @@
 		.contact {
 			text-align: left;
 			background-position: left;
-		}
-
-		.contact button {
-			margin: 1em 1em 1em 0em;
 		}
 
 		.thanks {
