@@ -73,7 +73,12 @@
 		}
 
 		a { 
-			color: #FFF; 
+			color: #FFF;
+		}
+
+		a:hover {
+			color: #FFE600;
+			transition: 0.3s;
 		}
 
 		li {
@@ -104,6 +109,9 @@
 		section {
 			padding: 4em 15% 7em 15% 
 		}
+
+
+/* home page */
 
 		.hero {
 			background-color: #000;
@@ -285,6 +293,9 @@
 		}
 
 
+
+/* contact */
+
 		.contact {
 			background-color: #75d972;
 			text-align: center;
@@ -304,6 +315,10 @@
 			padding-right: 1em;
 		}
 
+
+
+
+/* thanks */
 
 		.thanks {
 			padding: 0.6em 10% 0.6em 10% ;
@@ -336,6 +351,13 @@
 
 
 /* PAGE WEBSITES */
+
+		.columns2 {
+  		columns: 25em;
+  		column-gap: 8em;
+  		orphans: 3;
+   		widows: 2;
+		}
 
 		#fidor {
 			background-color: #000;
@@ -425,9 +447,26 @@
 		nav a {
 			text-decoration: none;
 		}
-		
 
 
+
+/* PAGE MISC */
+
+		.misc-flex {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: flex-start;
+			row-gap: 2em;
+		}
+
+		.collage-item {
+			width: 30%;
+		}
+
+		.troisd-item {
+			width: 100%;
+		}
 
 
 
@@ -517,6 +556,18 @@
 		.testimonials h6 {
    			 margin-top: 0;
    			 color: #ABB2B9 ;
+		}
+
+
+		.columns2 {
+  		columns: auto auto;
+		}
+
+
+		/* PAGE MISC */
+
+		.collage-item {
+			width: 100%;
 		}
 
 
