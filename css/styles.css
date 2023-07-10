@@ -45,6 +45,8 @@
 		    margin-top: 2em;
 		    margin-bottom: 1em;
 		    color: #FFE600;
+		    /*opacity: 70%;
+		    text-shadow: 0 0 15px #FFE600;*/
 		}
 
 		h2 {
@@ -110,6 +112,15 @@
 			padding: 4em 15% 7em 15% 
 		}
 
+		.marquee {
+		  /*overflow: hidden;*/
+		  display: flex;
+		}
+
+		.marquee p{
+		  white-space: nowrap;
+		  text-transform: uppercase
+		}
 
 /* home page */
 
@@ -156,7 +167,7 @@
 			background-image: url("../images/brochure.jpg");
 			background-repeat: no-repeat;
 			background-position: right center;
-			background-size: 70%;
+			background-size: 60%;
 			color: #1234EA;
 		}
 
@@ -321,10 +332,10 @@
 /* thanks */
 
 		.thanks {
-			padding: 0.6em 10% 0.6em 10% ;
+			padding: 0;
 			background-color: #fff;
 			text-align: center;
-			font-size: 5em;
+			font-size: 2em;
 			text-transform: uppercase;
 			font-weight: 900;
 			line-height: 0.8em;
@@ -332,14 +343,16 @@
 
 		.thanks-empty {
 			color: #fff;
-			-webkit-text-stroke: 2px #FF1F00;
-			text-stroke: 2px #FF1F00;
+			-webkit-text-stroke: 1px #FF1F00;
+			text-stroke: 1px #FF1F00;
+			padding-right: 1em;
 		}
 		
 		.thanks-plain {
 			color: #FF1F00;
 			-webkit-text-stroke: 1px #FF1F00;
 			text-stroke: 1px #fff;
+			padding-right: 1em;
 		}
 
 		footer {
@@ -460,12 +473,17 @@
 			row-gap: 2em;
 		}
 
-		.collage-item {
+
+		.un-item {
+			width: 100%;
+		}
+
+		.deux-item {
 			width: 30%;
 		}
 
-		.troisd-item {
-			width: 100%;
+		.trois-item {
+			width: 49%;
 		}
 
 
@@ -566,7 +584,11 @@
 
 		/* PAGE MISC */
 
-		.collage-item {
+		.deux-item {
+			width: 100%;
+		}
+
+		.trois-item {
 			width: 100%;
 		}
 
