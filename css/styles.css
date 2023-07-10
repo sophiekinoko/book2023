@@ -359,7 +359,7 @@
 			padding: 0.5em 10% 0.5em 10%;
 			background-color: #FF1F00;
 			color: #FFF;
-			text-align: right;
+			text-align: center;
 		}
 
 
@@ -604,6 +604,7 @@
 
 		footer {
 			padding: 0.5em 5% 0.5em 5%;
+			text-align: left;
 		}
 
 
