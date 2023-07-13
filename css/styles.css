@@ -126,11 +126,12 @@
 
 		.hero {
 			background-color: #000;
-			padding-top: 2em;
+			padding-top: 8em;
 			padding-right: 30%;
 			background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/DebitCard-Facebook.jpg");
 			background-repeat: no-repeat;
 			background-position: 70% 80%;
+			background-attachment: fixed;
 		}
 
 		.phonetic {
@@ -172,12 +173,13 @@
 		}
 
 		.faq {
-			display: none;
-			background-color: #000;
+			background-color: #FFF;
+			color: #000;
 		}
 
 		.faq a {
 			text-decoration: none;
+			color: #000;
 		}
 
 
@@ -463,6 +465,15 @@
 
 
 
+
+/* PAGE MISC */
+
+		.about {
+			background-color: #fff;
+			color: 	#000;
+		}
+
+
 /* PAGE MISC */
 
 		.misc-flex {
@@ -479,11 +490,16 @@
 		}
 
 		.deux-item {
-			width: 30%;
+			width: 47%;
+		}
+
+		.deux-item img {
+			padding-top: 2.5em;
+			width: 100%;
 		}
 
 		.trois-item {
-			width: 49%;
+			width: 30%;
 		}
 
 
