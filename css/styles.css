@@ -365,7 +365,7 @@
 		}
 
 
-/* PAGE WEBSITES */
+/* PAGE WORKS */
 
 		.columns2 {
   		columns: 25em;
@@ -464,6 +464,13 @@
 		}
 
 
+		.bandeau-a {
+			background-color: #5E5BFF;
+			padding: 1em 2em;
+			border-radius: 25px;
+		}
+
+
 
 
 /* PAGE MISC */
@@ -472,9 +479,6 @@
 			background-color: #fff;
 			color: 	#000;
 		}
-
-
-/* PAGE MISC */
 
 		.misc-flex {
 			display: flex;
